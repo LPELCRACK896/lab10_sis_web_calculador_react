@@ -21,6 +21,13 @@ module.exports  = {
     module: {
         rules: [
             {
+                test: /\.(js|jsx)$/,
+                exclude: /nodeModules/,
+                use: {
+                  loader: 'babel-loader'
+                }
+              },
+            {
                 test: /\.scss$/,
                 use: [MinCssExtractProduction.loader,//3. Extrae Css into files 
                 "css-loader",//2. Convierte css a common js
