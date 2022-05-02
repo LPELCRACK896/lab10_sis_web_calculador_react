@@ -10,6 +10,27 @@ npm i --save mini-css-extract-plugin html-webpack-plugin clean-webpack-plugin cs
 ```
 npm i --save-dev webpack-dev-server
 ```
+## Eslint AirBnB Config
+### Prettier & airbnb
+```
+npm i --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier
+```
+```
+npx install-peerdeps --dev eslint-config-airbnb
+```
+Crar el archivo .prettierrc
+```json
+{
+  "singleQuote": true
+}
+```
+## Eslint
+```
+npm i -g eslint
+```
+```
+npm init @eslint/config
+```
 ## Editar proyecto (DEV)
 Como es de costumbre con proyecto que utilizan npm debemos instalar todas las dependencias con el siguiente comando: 
 ```
