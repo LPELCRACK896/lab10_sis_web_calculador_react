@@ -24,6 +24,8 @@
     "react-dom": "^18.1.0",
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
+    "sweetalert2": "^11.4.10",
+    "sweetalert2-react-content": "^5.0.0",
     "webpack": "^5.72.0",
     "wepack-cli": "^0.0.1-security"
   },
